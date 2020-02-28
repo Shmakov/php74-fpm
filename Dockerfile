@@ -57,7 +57,7 @@ RUN mkdir -p /usr/share/man/man1 /usr/share/man/man7 \
     gd \
     imap \
     ldap \
-    mbstring \
+    libonig-dev \
     mysqli \
     opcache \
     pdo \
