@@ -35,6 +35,7 @@ RUN mkdir -p /usr/share/man/man1 /usr/share/man/man7 \
     xfonts-base \
     xfonts-75dpi \
     zlib1g-dev \
+    libonig-dev \
   && pecl install apcu \
   && pecl install imagick \
   && pecl install memcached \
@@ -57,7 +58,6 @@ RUN mkdir -p /usr/share/man/man1 /usr/share/man/man7 \
     gd \
     imap \
     ldap \
-    libonig-dev \
     mysqli \
     opcache \
     pdo \
