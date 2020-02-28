@@ -25,7 +25,8 @@ RUN mkdir -p /usr/share/man/man1 /usr/share/man/man7 \
     libxml2-dev \
     libicu-dev \
     libzip-dev \
-    mysql-client \
+    default-mysql-client \
+    default-libmysqlclient-dev \
     pv \
     ssh \
     unzip \
